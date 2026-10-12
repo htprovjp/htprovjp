@@ -1,11 +1,10 @@
 
 <img width="604" height="604" alt="image" src="https://github.com/user-attachments/assets/f06f3359-1595-42f9-afad-10612274b759" />
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/21c9c779-d72a-42cd-81a3-38c009367d69" />
-<figure>
-<figure align="center">
-  <img src="https://github.com/user-attachments/assets/e114b67f-53d5-4fe2-a43e-368c65c734b4" width="60%" />
-  <figcaption><b>H+S</b></figcaption>
-</figure>
+<p align="center">
+  <img src="https://github.com" width="60%" /><br>
+  <b>H+S</b>
+</p>
 
 
 <figure align="center">
