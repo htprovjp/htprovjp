@@ -1,47 +1,28 @@
 <svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
+  <!-- Nền xanh lá nhẹ chuẩn tối ưu -->
+  <rect width="1200" height="70" rx="10" fill="#2ea44f" />
 
-  <!-- Nền xanh lá nhẹ -->
-  <rect width="1200" height="70" rx="10" fill="#2ea44f"></rect>
-
-  <!-- SAO 4 CÁNH SỐ 1 (Bên trái) -->
-  <path d="M 40,14 Q 40,20 46,20 Q 40,20 40,26 Q 40,20 34,20 Q 40,20 40,14 Z" fill="#ffffff">
+  <!-- LOGIC LẤP LÁNH 1: Nhóm sao nhấp nháy chu kỳ nhanh (1.5 giây) -->
+  <path d="M 60,15  Q 60,20  65,20  Q 60,20  60,25  Q 60,20  55,20  Q 60,20  60,15 Z 
+           M 450,45 Q 450,50 455,50 Q 450,50 450,55 Q 450,50 444,50 Q 450,50 450,45 Z
+           M 920,10 Q 920,15 925,15 Q 920,15 920,20 Q 920,15 915,15 Q 920,15 920,10 Z" 
+        fill="#ffffff">
     <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" />
   </path>
 
-  <!-- SAO CHẤM TRÒN SỐ 2 -->
-  <circle cx="150" cy="50" r="2" fill="#ffffff">
-    <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- SAO CHẤM TRÒN SỐ 3 -->
-  <circle cx="350" cy="15" r="2.5" fill="#ffffff">
-    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- SAO 4 CÁNH SỐ 4 (Ở giữa) -->
-  <path d="M 600,19 Q 600,25 606,25 Q 600,25 600,31 Q 600,25 594,25 Q 600,25 600,19 Z" fill="#ffffff">
-    <animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite" />
+  <!-- LOGIC LẤP LÁNH 2: Nhóm sao nhấp nháy chu kỳ chậm (2.3 giây) để tạo độ sâu sinh động -->
+  <path d="M 220,40 Q 220,45 225,45 Q 220,45 220,50 Q 220,45 215,45 Q 220,45 220,40 Z
+           M 710,20 Q 710,25 715,25 Q 710,25 710,30 Q 710,25 705,25 Q 710,25 710,20 Z
+           M 1130,35 Q 1130,40 1135,40 Q 1130,40 1130,45 Q 1130,40 1125,40 Q 1130,40 1130,35 Z" 
+        fill="#ffffff">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.3s" repeatCount="indefinite" />
   </path>
 
-  <!-- SAO CHẤM TRÒN SỐ 5 -->
-  <circle cx="850" cy="55" r="2" fill="#ffffff">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- SAO 4 CÁNH SỐ 6 (Bên phải) -->
-  <path d="M 1100,39 Q 1100,45 1106,45 Q 1100,45 1100,51 Q 1100,45 1094,45 Q 1100,45 1100,39 Z" fill="#ffffff">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" repeatCount="indefinite" />
-  </path>
-
-  <!-- SAO CHẤM TRÒN SỐ 7 -->
-  <circle cx="1150" cy="15" r="1.5" fill="#ffffff">
-    <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Chữ màu trắng chạy ngang mượt mà -->
-  <text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#ffffff">
-    ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="14s" repeatCount="indefinite" />
+  <!-- LOGIC CHỮ CHẠY VÔ HẠN (INFINITE MARQUEE) -->
+  <!-- Sử dụng textLength để ép toàn bộ chuỗi text dàn đều đúng kích thước toán học -->
+  <text x="0" y="44" font-size="26" font-family="monospace" font-weight="700" fill="#ffffff" textLength="2400">
+    ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
+    <!-- Tịnh tiến chính xác từ 0 đến đúng một nửa chiều dài chuỗi để tạo vòng lặp vô tận không tì vết -->
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="15s" repeatCount="indefinite" />
   </text>
-
 </svg>
