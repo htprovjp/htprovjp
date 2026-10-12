@@ -20,7 +20,7 @@
 <!-- Logic chữ chạy vô hạn: Nhân bản chuỗi chữ dài hơn và ép chính xác khoảng cách tịnh tiến -->
 <text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#ffffff">
 
-✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
+ »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »»
 
 <animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
 
