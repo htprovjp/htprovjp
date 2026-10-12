@@ -1,22 +1,54 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
 
 <rect width="1200" height="70" rx="10" fill="#2ea44f"></rect>
 
-<!-- sparkle (ngôi sao lấp lánh) -->
-<circle cx="70" cy="20" r="2" fill="#ffffff">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"></animate>
+<defs>
+    <!-- Tạo ngôi sao 4 cánh lấp lánh nâng cao -->
+    <g id="star">
+        <path d="M 0,-6 Q 0,0 6,0 Q 0,0 0,6 Q 0,0 -6,0 Q 0,0 0,-6 Z" fill="#ffffff" />
+    </g>
+</defs>
+
+<!-- Hệ thống sao lấp lánh đa dạng vị trí và nhịp điệu -->
+<!-- Sao 4 cánh lớn bên trái -->
+<use href="#star" x="40" y="20" transform="scale(1)">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" values="0.4;1.1;0.4" dur="1.5s" repeatCount="indefinite" additive="sum" />
+</use>
+
+<!-- Sao chấm tròn nhỏ -->
+<circle cx="150" cy="50" r="1.5" fill="#ffffff">
+    <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite" />
 </circle>
 
-<circle cx="1120" cy="50" r="2" fill="#ffffff">
-    <animate attributeName="opacity" values="1;0;1" dur="1.7s" repeatCount="indefinite"></animate>
+<circle cx="350" cy="15" r="2" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0.1;1" dur="1.8s" repeatCount="indefinite" />
 </circle>
- <!-- Chữ màu trắng chạy ngang -->
+
+<!-- Sao 4 cánh ở giữa -->
+<use href="#star" x="600" y="25" transform="scale(0.8)">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" additive="sum" />
+</use>
+
+<circle cx="850" cy="55" r="1.8" fill="#ffffff">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite" />
+</circle>
+
+<!-- Sao 4 cánh lớn bên phải -->
+<use href="#star" x="1100" y="45" transform="scale(1.1)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="scale" values="0.5;1.2;0.5" dur="1.3s" repeatCount="indefinite" additive="sum" />
+</use>
+
+<circle cx="1150" cy="15" r="1.5" fill="#ffffff">
+    <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite" />
+</circle>
+
+<!-- Chữ màu trắng chạy ngang mượt mà -->
 <text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#ffffff">
-
-✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
-
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="14s" repeatCount="indefinite"></animateTransform>
-
+    ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="14s" repeatCount="indefinite" />
 </text>
 
 </svg>
