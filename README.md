@@ -1,39 +1,4 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
 
-<defs>
-
-<linearGradient id="scene" x1="0%" x2="100%">
-    <stop offset="0%" stop-color="#ff71ce"></stop>
-    <stop offset="25%" stop-color="#b967ff"></stop>
-    <stop offset="50%" stop-color="#01cdfe"></stop>
-    <stop offset="75%" stop-color="#05ffa1"></stop>
-    <stop offset="100%" stop-color="#fff275"></stop>
-
-    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"></animateTransform>
-</linearGradient>
-
-</defs>
-
-<rect width="1200" height="70" rx="10" fill="#0f0f17"></rect>
-
-<!-- sparkle -->
-<circle cx="70" cy="20" r="2" fill="#fff">
-    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"></animate>
-</circle>
-
-<circle cx="1120" cy="50" r="2" fill="#fff">
-    <animate attributeName="opacity" values="1;0;1" dur="1.7s" repeatCount="indefinite"></animate>
-</circle>
-
-<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="url(#scene)">
-
-jehehehehhe
-
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-650 0" dur="12s" repeatCount="indefinite"></animateTransform>
-
-</text>
-
-</svg>
 <img width="790" height="576" alt="ezgif-5ed857104f6ab6d8" src="https://github.com/user-attachments/assets/0854c348-0969-4c1e-b6d1-a2ce8848fd02" />
 
 
