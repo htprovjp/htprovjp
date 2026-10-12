@@ -27,7 +27,7 @@
 
 <text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="url(#scene)">
 
-Holaa Tm Hamish Nice to meet you
+Hi
 
 <animateTransform attributeName="transform" type="translate" from="0 0" to="-650 0" dur="12s" repeatCount="indefinite"></animateTransform>
 
