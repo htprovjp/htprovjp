@@ -1,0 +1,19 @@
+<table bgcolor="#2ea44f" width="100%">
+  <tr>
+    <td style="color: #ffffff; padding: 20px; font-family: sans-serif;">
+      <h1 style="color: #ffffff; margin-top: 0;">👋 Xin chào, mình là Sayasha!</h1>
+      <p style="font-size: 16px; line-height: 1.6;">
+        Chào mừng bạn đã ghé thăm không gian lập trình nhỏ của mình trên GitHub. 
+        Mình là một nhà phát triển đam mê sáng tạo, yêu thích việc biến các ý tưởng 
+        tưởng chừng như không thể thành những dòng code chạy mượt mà.
+      </p>
+      <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.3); margin: 15px 0;" />
+      <h3 style="color: #ffffff;">🌿 Lĩnh vực mình đang tập trung:</h3>
+      <ul style="margin-bottom: 0; padding-left: 20px; line-height: 1.5;">
+        <li>Đang nghiên cứu và tối ưu hóa giao diện người dùng (Frontend Development)</li>
+        <li>Tìm hiểu sâu về cấu trúc dữ liệu, giải thuật và cách tối ưu mã nguồn</li>
+        <li>Xây dựng các dự án cá nhân tự động hóa và các công cụ tiện ích</li>
+      </ul>
+    </td>
+  </tr>
+</table>
