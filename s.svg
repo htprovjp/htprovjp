@@ -1,28 +1,29 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
-  <!-- Nền xanh lá nhẹ chuẩn tối ưu -->
-  <rect width="1200" height="70" rx="10" fill="#2ea44f" />
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
 
-  <!-- LOGIC LẤP LÁNH 1: Nhóm sao nhấp nháy chu kỳ nhanh (1.5 giây) -->
-  <path d="M 60,15  Q 60,20  65,20  Q 60,20  60,25  Q 60,20  55,20  Q 60,20  60,15 Z 
-           M 450,45 Q 450,50 455,50 Q 450,50 450,55 Q 450,50 444,50 Q 450,50 450,45 Z
-           M 920,10 Q 920,15 925,15 Q 920,15 920,20 Q 920,15 915,15 Q 920,15 920,10 Z" 
-        fill="#ffffff">
-    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" />
-  </path>
+<rect width="1200" height="70" rx="10" fill="#2ea44f"></rect>
 
-  <!-- LOGIC LẤP LÁNH 2: Nhóm sao nhấp nháy chu kỳ chậm (2.3 giây) để tạo độ sâu sinh động -->
-  <path d="M 220,40 Q 220,45 225,45 Q 220,45 220,50 Q 220,45 215,45 Q 220,45 220,40 Z
-           M 710,20 Q 710,25 715,25 Q 710,25 710,30 Q 710,25 705,25 Q 710,25 710,20 Z
-           M 1130,35 Q 1130,40 1135,40 Q 1130,40 1130,45 Q 1130,40 1125,40 Q 1130,40 1130,35 Z" 
-        fill="#ffffff">
-    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.3s" repeatCount="indefinite" />
-  </path>
+<!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) -->
+<circle cx="70" cy="20" r="2.5" fill="#ffffff">
+    <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"></animate>
+</circle>
 
-  <!-- LOGIC CHỮ CHẠY VÔ HẠN (INFINITE MARQUEE) -->
-  <!-- Sử dụng textLength để ép toàn bộ chuỗi text dàn đều đúng kích thước toán học -->
-  <text x="0" y="44" font-size="26" font-family="monospace" font-weight="700" fill="#ffffff" textLength="2400">
-    ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
-    <!-- Tịnh tiến chính xác từ 0 đến đúng một nửa chiều dài chuỗi để tạo vòng lặp vô tận không tì vết -->
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="15s" repeatCount="indefinite" />
-  </text>
+<!-- sparkle 2: Thêm một ngôi sao ở giữa để cân bằng bố cục (1.8s) -->
+<circle cx="600" cy="15" r="2" fill="#ffffff">
+    <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"></animate>
+</circle>
+
+<!-- sparkle 3: Lấp lánh lệch nhịp nhanh (1.2s) -->
+<circle cx="1120" cy="50" r="3" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"></animate>
+</circle>
+
+<!-- Logic chữ chạy vô hạn: Nhân bản chuỗi chữ dài hơn và ép chính xác khoảng cách tịnh tiến -->
+<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#ffffff">
+
+✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦ welcome ✦
+
+<animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
+
+</text>
+
 </svg>
