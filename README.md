@@ -3,7 +3,7 @@
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/21c9c779-d72a-42cd-81a3-38c009367d69" />
 <figure>
 <figure align="center">
-  <video src="https://github.com/user-attachments/assets/e114b67f-53d5-4fe2-a43e-368c65c734b4" autoplay loop muted playsinline width="60%"></video>
+  <img src="https://github.com/user-attachments/assets/e114b67f-53d5-4fe2-a43e-368c65c734b4" width="60%" />
   <figcaption><b>H+S</b></figcaption>
 </figure>
 
