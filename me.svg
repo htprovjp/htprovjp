@@ -35,17 +35,4 @@ Hi
 
 </svg>
 
-<style>
-  header {
-    position: sticky;
-    top: 0;
-    background: white;
-    z-index: 10;
-    text-align: center;
-    padding: 10px;
-  }
-</style>
 
-<header>
-  <img src="./me.svg" alt="Me" width="120">
-</header>
