@@ -1,0 +1,19 @@
+<div style="background-color: #1a365d; padding: 20px; border-radius: 8px; font-family: sans-serif; color: #ffffff;">
+  
+  <!-- Tiêu đề màu xanh lá nhạt -->
+  <h2 style="color: #93c5fd; margin-top: 0; color: #86efac; border-bottom: none; padding-bottom: 0;">
+    🌱 Xin chào, mình là [Tên của bạn]!
+  </h2>
+
+  <!-- Nội dung giới thiệu màu trắng và xanh lá nhạt đan xen -->
+  <p style="line-height: 1.6; font-size: 16px;">
+    Chào mừng bạn đến với không gian GitHub của mình. Mình là một lập trình viên đam mê sáng tạo và xây dựng các sản phẩm công nghệ hữu ích.
+  </p>
+
+  <p style="line-height: 1.6; font-size: 16px; margin-bottom: 0;">
+    <strong style="color: #86efac;">🚀 Định hướng hiện tại:</strong> Đang nghiên cứu về Web Development và AI.<br>
+    <strong style="color: #86efac;">🛠️ Công cụ yêu thích:</strong> JavaScript, Python, React, và Git.<br>
+    <strong style="color: #86efac;">📫 Liên hệ:</strong> Bạn có thể tìm mình qua email hoặc LinkedIn.
+  </p>
+
+</div>
