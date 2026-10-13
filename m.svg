@@ -33,21 +33,16 @@
 
 <!-- KHỐI OTP ĐÃ ĐƯỢC CHỈNH SỬA XUỐNG DÒNG (Bố cục cực kỳ đẹp và gọn gàng) -->
 <text x="450" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
-  ✮ 𝖢𝖴𝖱𝖱𝖤𝖭𝖳 𝖮𝖡𝖲𝖤𝖲𝖲𝖨𝖮𝖭 / 𝖮𝖳𝖯 : <tspan font-weight="700" font-style="normal">𝐒𝐀𝐊𝐀𝐓𝐀 𝐆𝐈𝐍𝐓𝐎𝐊𝐈 𝐱 𝐇𝐈𝐉𝐈𝐊𝐀𝐓𝐀 𝐓𝐎𝐔𝐒𝐇𝐈𝐑𝐎𝐔</tspan>
-</text>
-<text x="450" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
-  / 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 / 𝐎𝐊𝐈𝐊𝐀𝐆𝐔 (𝖳𝖧𝖤𝖸 𝖠𝖱𝖤 𝖬𝖸 𝖫𝖨𝖥𝖤 𝖫𝖨𝖭𝖤 🥺)
-</text>
+  ✮ 𝖢𝖴𝖱𝖱𝖤𝖭𝖳 𝖮𝖡𝖲𝖤𝖲𝖲𝖨𝖮𝖭 / 𝖮𝖳𝖯 : <tspan font-weight="700" font-style="normal">𝐒𝐀𝐊𝐀𝐓𝐀 𝐆𝐈𝐍𝐓𝐎𝐊𝐈 𝐱 𝐇𝐈𝐉𝐈𝐊𝐀𝐓𝐀 𝐓𝐎𝐔𝐒𝐇𝐈𝐑𝐎𝐔</tspan> </text>
+<text x="450" y="410" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)"> 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 / 𝐎𝐊𝐈𝐊𝐀𝐆𝐔 (𝖳𝖧𝖤𝖸 𝖠𝖱𝖤 𝖬𝖸 𝖫𝖨𝖥𝖤 𝖫𝖨𝖭𝖤 🥺) </text>
 <text x="450" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
-  ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM.
-</text>
+  ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM. </text>
 <!-- Đường phân cách lấp lánh -->
 <text x="450" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
 
 <text x="450" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆𝙄𝙉</text>
 
-<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</text>
 <!-- Thanh ngang dưới cùng -->
-<rect x="245" y="445" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9"></rect>
+<rect x="245" y="445" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</rect>
 
 </svg>
