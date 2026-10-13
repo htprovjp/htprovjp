@@ -15,7 +15,7 @@
 </defs>
 
 <!-- Lớp nền xanh nước biển đậm giúp bảo vệ chữ, không lo bị tàng hình ở giao diện trắng -->
-<rect width="100%" height="100%" fill="#1a365d" rx="12" />
+<rect width="100%" height="100%" fill="#1a365d" rx="5" />
 
 <!-- Tiêu đề chính -->
 <text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)"> ＨΣＡＲＴＢΣＡＴ Ｆ♢Ｒ 「 ✦ ＨＩＪＩＫＡＴＡ ✦ 」</text>
