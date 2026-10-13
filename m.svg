@@ -38,11 +38,11 @@
 <text x="450" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
   ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM. </text>
 <!-- Đường phân cách lấp lánh -->
-<text x="450" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
+<text x="450" y="470" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
 
-<text x="450" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆𝙄𝙉</text>
+<text x="450" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆𝙄𝙉</text>
 
 <!-- Thanh ngang dưới cùng -->
-<rect x="245" y="445" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</rect>
+<rect x="450" y="520" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</rect>
 
 </svg>
