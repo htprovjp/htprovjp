@@ -18,16 +18,20 @@
 <rect width="100%" height="100%" fill="#1a365d" rx="12" />
 
 <!-- Tiêu đề chính -->
-<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">✧ 𝟒𝐁𝟎𝐔𝐓 𝐌𝟑!1!1 ✧</text>
+<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">ﮩ٨ـﮩﮩ٨ـ 𝔸𝔹𝕆𝕌𝕋 𝕄𝔼 ﮩ٨ـﮩﮩ٨ـ</text>
 
 <!-- Nội dung phần giới thiệu (Tất cả đều dùng chung hiệu ứng quét sáng fill="url(#g-moving)") -->
-<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗜'𝗠 𝗩𝟯𝗥𝗬 𝗖𝟬𝗠𝗙𝟬𝗥𝗧 𝟰𝗡𝗗 𝗙𝟯𝟯𝗟 𝗡𝟭𝗖𝟯 𝗜𝗙 𝗬𝟬𝗨 𝗧𝗥𝗬𝟭𝗡𝗚 𝗧𝟬 𝗖𝟬𝗡𝗧𝟰𝗖𝗧, 𝗦𝟬 𝗗𝟬𝗡'𝗧 𝗦𝗛𝗬 ^_^</text>
+<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𝖧𝖤𝖫𝖫𝖮! 𝖨'𝖬 HAMISH 𝖩𝖴𝖲𝖳 𝖠 𝖢𝖮𝖹𝖸 𝖲𝖮𝖴𝖫 𝖧𝖤𝖱𝖤 𝖦𝖱𝖤𝖤𝖳𝖨𝖭𝖦 𝖸𝖮𝖴. 𝖸𝖮𝖴 𝖢𝖠𝖭 𝖠𝖫𝖲𝖮 𝖢𝖠𝖫𝖫 𝖬𝖤 NOXISH OR NOX 𝖨𝖥 𝖸𝖮𝖴 𝖫𝖨𝖪𝖤 (*´𝗏x𝗏*) </text>
+<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖰𝖴𝖨𝖳𝖤 𝖲𝖧𝖸 𝖠𝖳 𝖥𝖨𝖱𝖲𝖳, 𝖡𝖴𝖳 𝖨'𝖫𝖫 𝖡𝖤 𝖠 𝖫𝖨𝖳𝖳𝖫𝖤 𝖫𝖮𝖴𝖣𝖤𝖱 𝖮𝖭𝖢𝖤 𝖶𝖤 𝖦𝖤𝖳 𝖢𝖫𝖮𝖲𝖤𝖱 :𝖣 </text>
+<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖠 𝖡𝖨𝖳 𝖫𝖠𝖹𝖸 𝖠𝖭𝖣 𝖰𝖴𝖨𝖤𝖳 </text>
+<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖰𝖴𝖨𝖳𝖤 𝖠𝖭 𝖨𝖭𝖳𝖱𝖮𝖵𝖤𝖱𝖳, 𝖡𝖴𝖳 𝖠𝖫𝖶𝖠𝖸𝖲 𝖧𝖤𝖱𝖤 𝖳𝖮 𝖫𝖨𝖲𝖳𝖤𝖭 𝖨𝖥 𝖸𝖮𝖴 𝖭𝖤𝖤𝖣 𝖠 𝖢𝖧𝖠𝖳 ᵕ̈ </text>
+ <text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𖤓 𝑇𝑜 𝑏𝑒 ℎ𝑜𝑛𝑒𝑠𝑡, 𝐼 𝑑𝑜𝑛'𝑡 𝑟𝑒𝑎𝑙𝑙𝑦 𝑚𝑖𝑛𝑑 𝑤ℎ𝑎𝑡 𝑦𝑜𝑢 𝑐𝑎𝑙𝑙 𝑚𝑒, 𝑦𝑜𝑢 𝑐𝑎𝑛 𝑒𝑣𝑒𝑛 𝑚𝑎𝑘𝑒 𝑢𝑝 𝑎 𝑛𝑖𝑐𝑘𝑛𝑎𝑚𝑒 𝑓𝑜𝑟 𝑚𝑒 𝑖𝑓 𝑦𝑜𝑢'𝑑 𝑙𝑖𝑘𝑒! 𖤓 </text>
+<text x="450" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">𝖥𝖠𝖭𝖣𝖮𝖬𝖲 : 𝖦𝖨𝖭𝖳𝖮𝖪𝖨 & 𝖳𝖧𝖤 𝖦𝖨𝖭𝖳𝖠𝖬𝖠 𝖢𝖱𝖤𝖶 /ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ˗ </text>
 
-<text x="450" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗜’𝗠 𝗡𝟬𝗧 𝗧𝗛𝟯 𝗧𝗬𝗣𝟯 𝗧𝟬 𝗜𝗡𝗜𝗧𝟭𝟰𝗧𝟯 𝗖𝟬𝗡𝗩𝟯𝗥𝗦𝟰𝗧𝟭𝟬𝗡𝗦, 𝗛𝟬Ｐ𝟯 𝗨 𝗖𝟬🇺🇱🇩 𝗧𝟰𝗞𝟯 𝗧𝗛𝟯 𝗟𝟯𝟰𝑫</text>
+<text x="450" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝖢𝖴𝖱𝖱𝖤𝖭𝖳 𝖮𝖡𝖲𝖤𝖲𝖲𝖨𝖮𝖭 / 𝖮𝖳𝖯 : 
+𝐒𝐀𝐊𝐀𝐓𝐀 𝐆𝐈𝐍𝐓𝐎𝐊𝐈 𝐱 𝐇𝐈𝐉𝐈𝐊𝐀𝐓𝐀 𝐓𝐎𝐔𝐒𝐇𝐈𝐑𝐎𝐔 / 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 / 𝐎𝐊𝐈𝐊𝐀𝐆𝐔(𝖳𝖧𝖤𝖸 𝖠𝖱𝖤 𝖬𝖸 𝖫𝖨𝖥𝖤 𝖫𝖨𝖭𝖤 🥺, ESPECIALLY 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 I ABSOLUTELY LOVE THEM.)</text>
 
-<text x="450" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝟬𝗙𝗧𝟯𝗡 𝟰𝗙𝗞 𝗙𝟬𝗥 𝗪𝟬𝗥𝗞, 𝗦𝟬 𝗣check𝟯𝟰 stroke𝗦𝟯 𝗪𝗛𝟭𝗦𝗣𝟯𝗥 𝗜𝗙 𝗜'𝗠 𝗡𝟬𝗧 𝗛𝟯𝗥𝟯 𝟬_𝗼</text>
-
-<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗙𝟰𝗡𝗗𝟬𝗠𝗦 : 𝗙𝗢𝗥𝗦𝗔𝗞𝗘𝗡, 𝗘𝗚𝗥𝗘𝗧𝗘𝗩𝗔𝗧𝗢𝗥, 𝗠.𝗘.𝗚, .....𝗲𝘁𝗰</text>
+<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)"></text>
 
 <!-- Phần chú thích ghi công nhỏ -->
 <text x="450" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-style="italic" fill="url(#g-moving)">(𝑎𝑟𝑡𝑤𝑜𝑟𝑘𝑠 𝑎𝑛𝑑 𝑔𝑖𝑓 ℎ𝑒𝑟𝑒 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑚𝑖𝑛𝑒 — 𝑖𝑚 𝑗𝑢𝑠𝑡 𝑒𝑑𝑖𝑡𝑒𝑑 𝑡ℎ𝑒𝑚</text>
