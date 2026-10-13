@@ -1,1 +1,24 @@
-<text x="450" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖬𝖸 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖤𝖱</t
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="465" viewBox="0 0 900 465">
+
+<defs>
+  <!-- Hiệu ứng dải màu chuyển động áp dụng cho TẤT CẢ các dòng chữ -->
+  <linearGradient id="g-moving" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#86efac"></stop>
+    <stop offset="35%" stop-color="#86efac"></stop>
+    <stop offset="50%" stop-color="#ffffff"></stop> <!-- Vệt sáng trắng quét qua -->
+    <stop offset="65%" stop-color="#86efac"></stop>
+    <stop offset="100%" stop-color="#86efac"></stop>
+
+    <animate attributeName="x1" from="-100%" to="100%" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" />
+  </linearGradient>
+</defs>
+
+<!-- Lớp nền xanh nước biển đậm giúp bảo vệ chữ, không lo bị tàng hình ở giao diện trắng -->
+<rect width="100%" height="100%" fill="#1a365d" rx="12" />
+
+<!-- Tiêu đề chính -->
+<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)"> ＨΣＡＲＴＢΣＡＴ Ｆ♢Ｒ 「 ✦ ＨＩＪＩＫＡＴＡ ✦ 」</text>
+
+<!-- 
+</svg>
