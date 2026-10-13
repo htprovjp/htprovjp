@@ -18,12 +18,5 @@
 </p>
 <img width="987" height="720" alt="ezgif-8f9e1677aa0c466e" src="https://github.com/user-attachments/assets/1eeca7d0-eecc-4643-b52a-64d28919edee" />
 
-
-
-
-
-
-
-
-
+<img width="900" height="465" alt="m (1)" src="https://github.com/user-attachments/assets/2ad64a27-c0a2-4b3f-9be1-565bd3d895ac" />
 
