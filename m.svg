@@ -1,49 +1,48 @@
-<svg xmlns="http://w3.org" width="900" height="465" viewBox="0 0 900 465">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="465" viewBox="0 0 900 465">
 
 <defs>
-  <!-- Hiệu ứng dải màu chuyển động Xanh lá nhạt - Trắng - Xanh lá nhạt -->
+  <!-- Hiệu ứng dải màu chuyển động áp dụng cho TẤT CẢ các dòng chữ -->
   <linearGradient id="g-moving" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#86efac"></stop>
     <stop offset="35%" stop-color="#86efac"></stop>
-    <stop offset="50%" stop-color="#ffffff"></stop> 
+    <stop offset="50%" stop-color="#ffffff"></stop> <!-- Vệt sáng trắng quét qua -->
     <stop offset="65%" stop-color="#86efac"></stop>
     <stop offset="100%" stop-color="#86efac"></stop>
     
-    <animate attributeName="x1" from="-100%" to="100%" dur="3.5s" repeatCount="indefinite" />
-    <animate attributeName="x2" from="0%" to="200%" dur="3.5s" repeatCount="indefinite" />
+    <animate attributeName="x1" from="-100%" to="100%" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" />
   </linearGradient>
 </defs>
 
-<!-- Lớp nền xanh nước biển đậm bảo vệ chữ ở cả Light/Dark Mode -->
+<!-- Lớp nền xanh nước biển đậm giúp bảo vệ chữ, không lo bị tàng hình ở giao diện trắng -->
 <rect width="100%" height="100%" fill="#1a365d" rx="12" />
 
-<!-- TIÊU ĐỀ: Phông chữ Trebuchet MS dày dặn, hiện đại -->
-<text x="450" y="45" text-anchor="middle" font-family="'Trebuchet MS', sans-serif" font-size="32" font-weight="800" fill="url(#g-moving)">✧ 𝟒𝐁𝟎𝐔𝐓 𝐌𝟑!1!1 ✧</text>
+<!-- Tiêu đề chính -->
+<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">✧ 𝟒𝐁𝟎𝐔𝐓 𝐌𝟑!1!1 ✧</text>
 
-<!-- NỘI DUNG: Phông chữ 'Segoe UI' mượt mà, dễ đọc, không lỗi ký tự -->
-<text x="450" y="92" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="19" font-style="italic" fill="#ffffff">✮ 𝗜'𝗠 𝗩𝟯𝗥𝗬 𝗖𝟬𝗠𝗙𝟬𝗥𝗧 𝟰𝗡𝗗 𝗙𝟯𝟯𝗟 𝗡𝟭𝗖𝟯 𝗜𝗙 𝗬𝟬𝗨 𝗧𝗥𝗬𝟭𝗡𝗚 𝗧𝟬 𝗖𝟬𝗡𝗧𝟰𝗖𝗧, 𝗦𝟬 𝗗𝟬𝗡'𝗧 𝗦𝗛𝗬 ^_^</text>
+<!-- Nội dung phần giới thiệu (Tất cả đều dùng chung hiệu ứng quét sáng fill="url(#g-moving)") -->
+<text x="450" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗜'𝗠 𝗩𝟯𝗥𝗬 𝗖𝟬𝗠𝗙𝟬𝗥𝗧 𝟰𝗡𝗗 𝗙𝟯𝟯𝗟 𝗡𝟭𝗖𝟯 𝗜𝗙 𝗬𝟬𝗨 𝗧𝗥𝗬𝟭𝗡𝗚 𝗧𝟬 𝗖𝟬𝗡𝗧𝟰𝗖𝗧, 𝗦𝟬 𝗗𝟬𝗡'𝗧 𝗦𝗛𝗬 ^_^</text>
 
-<text x="450" y="132" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="19" font-style="italic" fill="#86efac">✮ 𝗜’𝗠 𝗡𝟬𝗧 𝗧𝗛𝟯 𝗧𝗬𝗣𝟯 𝗧𝟬 𝗜𝗡𝗜𝗧𝟭𝟰𝗧𝟯 𝗖𝟬𝗡訊𝗘𝗥𝗦𝟰𝗧𝟭𝟬𝗡𝗦, 𝗛𝟬𝗣𝟯 𝗨 𝗖𝟬🇺𝗟🇩 𝗧𝟰𝗞𝟯 𝗧𝗛𝟯 𝗟𝟯𝟰𝗗</text>
+<text x="450" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗜’𝗠 𝗡𝟬𝗧 𝗧𝗛𝟯 𝗧𝗬𝗣𝟯 𝗧𝟬 𝗜𝗡𝗜𝗧𝟭𝟰𝗧𝟯 𝗖𝟬𝗡𝗩𝟯𝗥𝗦𝟰𝗧𝟭𝟬𝗡𝗦, 𝗛𝟬Ｐ𝟯 𝗨 𝗖𝟬🇺🇱🇩 𝗧𝟰𝗞𝟯 𝗧𝗛𝟯 𝗟𝟯𝟰𝑫</text>
 
-<text x="450" y="172" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="19" font-style="italic" fill="#ffffff">✮ 𝟬𝗙𝗧𝟯𝗡 𝟰𝗙𝗞 𝗙𝟬𝗥 𝗪𝟬𝗥𝗞, 𝗦𝟬 𝗣𝗟𝟯𝟰𝗦𝟯 𝗪𝗛𝟭𝗦𝗣𝟯𝗥 𝗜𝗙 𝗜'𝗠 𝗡𝟬𝗧 𝗛𝟯𝗥𝟯 𝟬_𝗼</text>
+<text x="450" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝟬𝗙𝗧𝟯𝗡 𝟰𝗙𝗞 𝗙𝟬𝗥 𝗪𝟬𝗥𝗞, 𝗦𝟬 𝗣check𝟯𝟰 stroke𝗦𝟯 𝗪𝗛𝟭𝗦𝗣𝟯𝗥 𝗜𝗙 𝗜'𝗠 𝗡𝟬𝗧 𝗛𝟯𝗥𝟯 𝟬_𝗼</text>
 
-<!-- ĐÃ ĐỔI THÀNH FANDOM GINTAMA -->
-<text x="450" y="212" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="19" font-style="italic" fill="#86efac">✮ 𝗙𝟰𝗡𝗗𝟬𝗠𝗦 : 𝗚𝗜𝗡𝗧𝗔𝗠𝗔 🌟</text>
+<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">✮ 𝗙𝟰𝗡𝗗𝟬𝗠𝗦 : 𝗙𝗢𝗥𝗦𝗔𝗞𝗘𝗡, 𝗘𝗚𝗥𝗘𝗧𝗘𝗩𝗔𝗧𝗢𝗥, 𝗠.𝗘.𝗚, .....𝗲𝘁𝗰</text>
 
-<!-- Chú thích ghi công nhỏ -->
-<text x="450" y="244" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-style="italic" fill="#cbd5e1">(artworks and gif here are not mine — im just edited them</text>
+<!-- Phần chú thích ghi công nhỏ -->
+<text x="450" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-style="italic" fill="url(#g-moving)">(𝑎𝑟𝑡𝑤𝑜𝑟𝑘𝑠 𝑎𝑛𝑑 𝑔𝑖𝑓 ℎ𝑒𝑟𝑒 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑚𝑖𝑛𝑒 — 𝑖𝑚 𝑗𝑢𝑠𝑡 𝑒𝑑𝑖𝑡𝑒𝑑 𝑡ℎ𝑒𝑚</text>
 
-<text x="450" y="267" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" font-style="italic" fill="#cbd5e1">also from tiktok and pin)</text>
+<text x="450" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-style="italic" fill="url(#g-moving)">𝑎𝑙𝑠𝑜 𝑓𝑟𝑜𝑚 𝑡𝑖𝑘𝑡𝑜𝑘 𝑎𝑛𝑑 𝑝𝑖𝑛)</text>
 
-<!-- Đường phân cách quét sáng -->
-<text x="450" y="305" text-anchor="middle" font-family="'Trebuchet MS', sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
+<!-- Đường phân cách lấp lánh -->
+<text x="450" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
 
 <!-- Phần Note -->
-<text x="450" y="350" text-anchor="middle" font-family="'Trebuchet MS', sans-serif" font-size="26" font-weight="700" fill="#86efac">🖇️ 𝐍𝟎𝐓𝟑 ✩</text>
+<text x="450" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="url(#g-moving)">🖇️ 𝐍𝟎𝐓𝟑 ✩</text>
 
-<text x="450" y="390" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#ffffff">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐂𝟎𝐏𝐘 𝐌𝐘 𝐒𝐊𝟏𝐍 / 𝐈𝐃𝟑𝟒𝐒 𝐖𝟏𝐓𝐇𝟎𝐔𝐓 𝐏𝟑𝐑𝐌𝟏𝐒𝐒𝟏𝟎𝐍</text>
+<text x="450" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐂𝟎𝐏𝐘 𝐌𝐘 𝐒𝐊𝟏𝐍 / 𝐈𝐃𝟑𝟒𝐒 𝐖𝟏𝐓𝐇𝟎𝐔𝐓 𝐏𝟑𝐑𝐌𝟏𝐒𝐒𝟏𝟎𝐍</text>
 
-<text x="450" y="423" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#86efac">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐑𝟒𝐂𝟏𝐒𝐓, 𝐑𝟎𝐋𝟑𝐏𝐋𝟒𝐘, 𝐏𝐑𝟎𝐒𝐇𝐈𝐏/𝐃𝟒𝐑𝐊𝐒𝐇𝐈𝐏, 𝟏𝐍𝐒𝟑🇨🇹𝐔𝐎𝐒</text>
+<text x="450" y="423" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐑𝟒𝐂𝟏𝐒𝐓, 𝐑𝟎𝐋𝟑𝐏𝐋𝟒𝐘, 𝐏𝐑𝟎𝐒𝐇𝐈𝐏/𝐃𝟒𝐑𝐊𝐒𝐇𝐈𝐏, 𝟏𝐍𝐒𝟑🇨🇹🇺𝐎𝐒</text>
 
 <!-- Thanh ngang dưới cùng -->
 <rect x="245" y="445" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9"></rect>
