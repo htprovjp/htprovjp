@@ -41,27 +41,12 @@
 <text x="450" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
   ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM.
 </text>
-
-<!-- ĐƯỜNG PHÂN CÁCH (Đẩy lui xuống y=490 để nhường chỗ cho khối chữ) -->
-<text x="450" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
-
-<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)"></text>
-
-<!-- Phần chú thích ghi công nhỏ -->
-<text x="450" y="244" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-style="italic" fill="url(#g-moving)">(𝑎𝑟𝑡𝑤𝑜𝑟𝑘𝑠 𝑎𝑛𝑑 𝑔𝑖𝑓 ℎ𝑒𝑟𝑒 𝑎𝑟𝑒 𝑛𝑜𝑡 𝑚𝑖𝑛𝑒 — 𝑖𝑚 𝑗𝑢𝑠𝑡 𝑒𝑑𝑖𝑡𝑒𝑑 𝑡ℎ𝑒𝑚</text>
-
-<text x="450" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-style="italic" fill="url(#g-moving)">𝑎𝑙𝑠𝑜 𝑓𝑟𝑜𝑚 𝑡𝑖𝑘𝑡𝑜𝑘 𝑎𝑛𝑑 𝑝𝑖𝑛)</text>
-
 <!-- Đường phân cách lấp lánh -->
 <text x="450" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">─────── ✦ ───────</text>
 
-<!-- Phần Note -->
-<text x="450" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="url(#g-moving)">🖇️ 𝐍𝟎𝐓𝟑 ✩</text>
+<text x="450" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆𝙄𝙉</text>
 
-<text x="450" y="390" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐂𝟎𝐏𝐘 𝐌𝐘 𝐒𝐊𝟏𝐍 / 𝐈𝐃𝟑𝟒𝐒 𝐖𝟏𝐓𝐇𝟎𝐔𝐓 𝐏𝟑𝐑𝐌𝟏𝐒𝐒𝟏𝟎𝐍</text>
-
-<text x="450" y="423" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">♱ 𝐍𝟎𝐓 𝐒𝐔𝐏𝐏𝟎𝐑𝐓 𝐑𝟒𝐂𝟏𝐒𝐓, 𝐑𝟎𝐋𝟑𝐏𝐋𝟒𝐘, 𝐏𝐑𝟎𝐒𝐇𝐈𝐏/𝐃𝟒𝐑𝐊𝐒𝐇𝐈𝐏, 𝟏𝐍𝐒𝟑🇨🇹🇺𝐎𝐒</text>
-
+<text x="450" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-style="italic" fill="url(#g-moving)">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</text>
 <!-- Thanh ngang dưới cùng -->
 <rect x="245" y="445" width="410" height="2" rx="1" fill="url(#g-moving)" opacity=".9"></rect>
 
