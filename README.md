@@ -2,10 +2,8 @@
 <img width="800" height="70" alt="o" src="https://github.com/user-attachments/assets/e653e08d-1ebd-46ae-8195-c891587ba3f0" />
 <img width="900" height="465" alt="m" src="https://github.com/user-attachments/assets/b1cf1f99-af49-4a89-b897-7bfbeffdcf21" />
 <img width="987" height="720" alt="ezgif-8f9e1677aa0c466e" src="https://github.com/user-attachments/assets/1eeca7d0-eecc-4643-b52a-64d28919edee" />
-<text x="450" y="425" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖬𝖸 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖤𝖱</text>
-
-
-
+<img width="900" height="70" alt="j" src="https://github.com/user-attachments/assets/5655be30-8418-4c65-ba32-a5092ec7e41d" />
+<img width="900" height="70" alt="j" src="https://github.com/user-attachments/assets/0ec7c1fb-2772-4116-8799-b1f0697b82af" />
 
 
 
