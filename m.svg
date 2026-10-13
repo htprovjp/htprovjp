@@ -15,8 +15,8 @@
     <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" />
   </linearGradient>
 </defs>
-<!-- LỚP NỀN XANH NƯỚC BIỂN NHẠT (Soft Sky/Pastel Blue) - Giúp chữ luôn rõ ràng trên mọi giao diện -->
-<rect width="100%" height="100%" fill="#2563eb" rx="12" />
+<!-- LỚP NỀN XANH NƯỚC BIỂN PASTEL (Mã màu #93c5fd ngọt ngào, dịu mắt) -->
+<rect width="100%" height="100%" fill="#93c5fd" rx="12" />
 <!-- Tiêu đề chính -->
 <text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">ﮩ٨ـﮩﮩ٨ـ 𝔸𝔹𝕆𝕌𝕋 𝕄𝔼 ﮩ٨ـﮩﮩ٨ـ</text>
 
