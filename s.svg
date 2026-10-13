@@ -1,10 +1,9 @@
 
 
-
-
 <svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
 
-<rect width="1200" height="70" rx="10" fill="#2ea44f"></rect>
+<!-- Thay đổi nền sang màu xanh nước biển đậm (#1a365d) -->
+<rect width="1200" height="70" rx="10" fill="#1a365d"></rect>
 
 <!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) -->
 <circle cx="70" cy="20" r="2.5" fill="#ffffff">
@@ -21,13 +20,20 @@
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"></animate>
 </circle>
 
-<!-- Logic chữ chạy vô hạn: Nhân bản chuỗi chữ dài hơn và ép chính xác khoảng cách tịnh tiến -->
-<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#ffffff">
+<!-- Logic chữ chạy vô hạn: Phối màu chữ Xanh Lá Nhạt (#86efac) xen kẽ chữ Trắng (#ffffff) -->
+<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700">
+    <tspan fill="#86efac"> »» hello i'm hamish </tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
+    <tspan fill="#86efac"> »» hello i'm hamish </tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
+    <tspan fill="#86efac"> »» hello i'm hamish </tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
+    <tspan fill="#86efac"> »» hello i'm hamish </tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
+    <tspan fill="#86efac"> »» </tspan>
 
- »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »»
-
-<animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
-
+    <!-- Giữ nguyên logic tịnh tiến di chuyển để chữ chạy mượt mà không bị khựng -->
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
 </text>
 
 </svg>
