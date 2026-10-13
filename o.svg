@@ -1,19 +1,24 @@
-<div style="background-color: #1a365d; padding: 20px; border-radius: 8px; font-family: sans-serif; color: #ffffff;">
-  
-  <!-- Tiêu đề màu xanh lá nhạt -->
-  <h2 style="color: #93c5fd; margin-top: 0; color: #86efac; border-bottom: none; padding-bottom: 0;">
-    🌱 Xin chào, mình là [Tên của bạn]!
-  </h2>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 700 70">
+  <defs>
+    <!-- Tạo dải màu Xanh Lá Nhạt - Trắng - Xanh Lá Nhạt để làm hiệu ứng quét sáng -->
+    <linearGradient id="gradient-animation" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="30%" stop-color="#86efac" />
+      <stop offset="50%" stop-color="#ffffff" /> <!-- Vệt sáng màu trắng -->
+      <stop offset="70%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#86efac" />
+      
+      <!-- Hiệu ứng di chuyển dải màu liên tục để tạo chuyển động -->
+      <animate attributeName="x1" from="-100%" to="100%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="0%" to="200%" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
 
-  <!-- Nội dung giới thiệu màu trắng và xanh lá nhạt đan xen -->
-  <p style="line-height: 1.6; font-size: 16px;">
-    Chào mừng bạn đến với không gian GitHub của mình. Mình là một lập trình viên đam mê sáng tạo và xây dựng các sản phẩm công nghệ hữu ích.
-  </p>
+  <!-- Nền xanh nước biển đậm -->
+  <rect width="100%" height="100%" fill="#1a365d" rx="8" />
 
-  <p style="line-height: 1.6; font-size: 16px; margin-bottom: 0;">
-    <strong style="color: #86efac;">🚀 Định hướng hiện tại:</strong> Đang nghiên cứu về Web Development và AI.<br>
-    <strong style="color: #86efac;">🛠️ Công cụ yêu thích:</strong> JavaScript, Python, React, và Git.<br>
-    <strong style="color: #86efac;">📫 Liên hệ:</strong> Bạn có thể tìm mình qua email hoặc LinkedIn.
-  </p>
-
-</div>
+  <!-- Nội dung chữ giới thiệu đổi từ "NOW PLAYING" -->
+  <text x="350" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="url(#gradient-animation)">
+    ✨ 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑴𝒀 𝑮𝑰𝑻𝑯𝑼𝑩 ✨
+  </text>
+</svg>
