@@ -1,43 +1,49 @@
-<svg xmlns="http://w3.org" width="900" height="465" viewBox="0 0 900 465"> 
-  <defs> 
-    <!-- Hiệu ứng dải màu chuyển động với màu xanh đậm hơn + vệt sáng quét qua --> 
-    <linearGradient id="g-moving" x1="0%" y1="0%" x2="100%" y2="0%"> 
-      <stop offset="0%" stop-color="#0f172a"></stop> 
-      <stop offset="35%" stop-color="#0f172a"></stop> 
-      <stop offset="50%" stop-color="#ffffff"></stop> <!-- Vệt sáng trắng quét qua --> 
-      <stop offset="65%" stop-color="#0f172a"></stop> 
-      <stop offset="100%" stop-color="#0f172a"></stop> 
-      <animate attributeName="x1" from="-100%" to="100%" dur="4s" repeatCount="indefinite" /> 
-      <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" /> 
-    </linearGradient> 
-  </defs> 
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="465" viewBox="0 0 900 465">
 
-  <!-- LỚP NỀN ĐÃ ĐƯỢC XÓA ĐỂ TRỞ THÀNH TRONG SUỐT --> 
+<defs>
+  <!-- Hiệu ứng dải màu chuyển động áp dụng cho TẤT CẢ các dòng chữ -->
+  <linearGradient id="g-moving" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#86efac"></stop>
+    <stop offset="35%" stop-color="#86efac"></stop>
+    <stop offset="50%" stop-color="#ffffff"></stop> <!-- Vệt sáng trắng quét qua -->
+    <stop offset="65%" stop-color="#86efac"></stop>
+    <stop offset="100%" stop-color="#86efac"></stop>
 
-  <!-- Tiêu đề chính --> 
-  <text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">ﮩ٨ـﮩﮩ٨ـ 𝔸𝔹𝕆𝕌𝕋 𝕄𝔼 ﮩ٨ـﮩﮩ٨ـ</text> 
+    <animate attributeName="x1" from="-100%" to="100%" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" />
+  </linearGradient>
+</defs>
 
-  <!-- Nội dung phần giới thiệu --> 
-  <!-- KHỐI GIỚI THIỆU BẢN THÂN --> 
-  <text x="450" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖧𝖤𝖫𝖫𝖮! 𝖨'𝖬 HAMISH 𝖩𝖴𝖲𝖳 𝖠 𝖢𝖮𝖹𝖸 𝖲𝖮𝖴𝖫 𝖧𝖤𝖱𝖤 𝖦𝖱𝖤𝖤𝖳𝖨𝖭𝖦 𝖸𝖮𝖴.</text> 
-  <text x="450" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖸𝖮𝖴 𝖢𝖠𝖫𝖲𝖮 𝖢𝖠𝖫𝖫 𝖬𝖤 NOXISH OR NOX 𝖨𝖥 𝖸𝖮𝖴 𝖫𝖨𝖪𝖤 (*´𝗏x𝗏*)</text> 
-  <text x="450" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖰𝖴𝖨𝖳𝖤 𝖲𝖧𝖸 𝖠𝖳 𝖥𝖨𝖱𝖲𝖳, 𝖡𝖴𝖳 𝖨'𝖫𝖫 𝖡𝖤 𝖠 𝖫𝖨𝖳𝖳𝖫𝖤 𝖫𝖮𝖴𝖣𝖤𝖱 𝖮𝖭𝖢𝖤 𝖶𝖤 𝖦𝖤𝖳 𝖢𝖫𝖮𝖲𝖤𝖱 :𝖣</text> 
-  <text x="450" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖠 𝖡𝖨𝖳 𝖫𝖠𝖹𝖸 𝖠𝖭𝖣 𝖰𝖴𝖨𝖤𝖳 &amp; 𝖰𝖴𝖨𝖳𝖤 𝖠𝖭 𝖨𝖭𝖳𝖱𝖮𝖵𝖤𝖱𝖳,</text> 
-  <text x="450" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-style="italic" fill="url(#g-moving)">𖤓 To be honest, I don't really mind what you call me, you can even make up a nickname for me if you'd like! 𖤓</text> 
+<!-- Lớp nền xanh nước biển đậm giúp bảo vệ chữ, không lo bị tàng hình ở giao diện trắng -->
+<rect width="100%" height="100%" fill="#1a365d" rx="12" />
 
-  <!-- KHỐI FANDOM --> 
-  <text x="450" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖥𝖠𝖭𝖣𝖮𝖬𝖲 : 𝖦𝖨𝖭𝖳𝖮𝖪𝖨 &amp; 𝖳𝖧𝖤 𝖦𝖨𝖭𝖳𝖠𝖬𝖠 𝖢𝖱𝖤𝖶 /ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ˗</text> 
+<!-- Tiêu đề chính -->
+<text x="450" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="url(#g-moving)">ﮩ٨ـﮩﮩ٨ـ 𝔸𝔹𝕆𝕌𝕋 𝕄𝔼 ﮩ٨ـﮩﮩ٨ـ</text>
 
-  <!-- KHỐI OTP ĐÃ ĐƯỢC CHỈNH SỬA XUỐNG DÒNG --> 
-  <text x="450" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)"> ✮ 𝖢𝖴𝖱𝖱𝖤𝖭𝖳 𝖮𝖡𝖲𝖤𝖲𝖲𝖨𝖮𝖭 / 𝖮𝖳𝖯 : <tspan font-weight="700" font-style="normal">𝐒𝐀𝐊𝐀𝐓𝐀 𝐆𝐈𝐍𝐓𝐎𝐊𝐈 𝐱 𝐇𝐈𝐉𝐈𝐊𝐀𝐓𝐀 𝐓𝐎𝐔𝐒𝐇𝐈Ｒ𝐎𝐔</tspan> </text> 
-  <text x="450" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)"> 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 / 𝐎𝐊𝐈𝐊𝐀𝐆𝐔 (𝖳𝖧𝖤𝖸 𝖠𝖱𝖤 𝖬𝖸 𝖫𝖨𝖥𝖤 𝖫𝖨𝖭𝖤 🥺) </text> 
-  <text x="450" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)"> ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM. </text> 
+<!-- Nội dung phần giới thiệu (Tất cả đều dùng chung hiệu ứng quét sáng fill="url(#g-moving)") -->
+<!-- KHỐI GIỚI THIỆU BẢN THÂN (Mỗi dòng một tọa độ y riêng biệt để tránh đè chữ) -->
+<text x="450" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖧𝖤𝖫𝖫𝖮! 𝖨'𝖬 HAMISH 𝖩𝖴𝖲𝖳 𝖠 𝖢𝖮𝖹𝖸 𝖲𝖮𝖴𝖫 𝖧𝖤𝖱𝖤 𝖦𝖱𝖤𝖤𝖳𝖨𝖭𝖦 𝖸𝖮𝖴.</text>
+<text x="450" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖸𝖮𝖴 𝖢𝖠𝖫𝖲𝖮 𝖢𝖠𝖫𝖫 𝖬𝖤  NOXISH OR NOX  𝖨𝖥 𝖸𝖮𝖴 𝖫𝖨𝖪𝖤 (*´𝗏x𝗏*)</text>
+<text x="450" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖰𝖴𝖨𝖳𝖤 𝖲𝖧𝖸 𝖠𝖳 𝖥𝖨𝖱𝖲𝖳, 𝖡𝖴𝖳 𝖨'𝖫𝖫 𝖡𝖤 𝖠 𝖫𝖨𝖳𝖳𝖫𝖤 𝖫𝖮𝖴𝖣𝖤𝖱 𝖮𝖭𝖢𝖤 𝖶𝖤 𝖦𝖤𝖳 𝖢𝖫𝖮𝖲𝖤𝖱 :𝖣</text>
+<text x="450" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖨'𝖬 𝖠 𝖡𝖨𝖳 𝖫𝖠𝖹𝖸 𝖠𝖭𝖣 𝖰𝖴𝖨𝖤𝖳 &amp; 𝖰𝖴𝖨𝖳𝖤 𝖠𝖭 𝖨𝖭𝖳𝖱𝖮𝖵𝖤𝖱𝖳,</text>
+<text x="450" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-style="italic" fill="url(#g-moving)">𖤓 To be honest, I don't really mind what you call me, you can even make up a nickname for me if you'd like! 𖤓</text>
 
-  <!-- Đường phân cách lấp lánh --> 
-  <text x="450" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">────────── ꒰✿` ꒳ ` ꒱♡ ──────────</text> 
-  <text x="450" y="430" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆🇮🇳</text> 
+<!-- KHỐI FANDOM -->
+<text x="450" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">𝖥𝖠𝖭𝖣𝖮𝖬𝖲 : 𝖦𝖨𝖭𝖳𝖮𝖪𝖨 &amp; 𝖳𝖧𝖤 𝖦𝖨𝖭𝖳𝖠𝖬𝖠 𝖢𝖱𝖤𝖶 /ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ˗</text>
 
-  <!-- Thanh ngang dưới cùng --> 
-  <text x="450" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</text> 
+<!-- KHỐI OTP ĐÃ ĐƯỢC CHỈNH SỬA XUỐNG DÒNG (Bố cục cực kỳ đẹp và gọn gàng) -->
+<text x="450" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
+  ✮ 𝖢𝖴𝖱𝖱𝖤𝖭𝖳 𝖮𝖡𝖲𝖤𝖲𝖲𝖨𝖮𝖭 / 𝖮𝖳𝖯 : <tspan font-weight="700" font-style="normal">𝐒𝐀𝐊𝐀𝐓𝐀 𝐆𝐈𝐍𝐓𝐎𝐊𝐈 𝐱 𝐇𝐈𝐉𝐈𝐊𝐀𝐓𝐀 𝐓𝐎𝐔𝐒𝐇𝐈𝐑𝐎𝐔</tspan> </text>
+<text x="450" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)"> 𝐆𝐈𝐍𝐇𝐈𝐉𝐈 / 𝐎𝐊𝐈𝐊𝐀𝐆𝐔 (𝖳𝖧𝖤𝖸 𝖠𝖱𝖤 𝖬𝖸 𝖫𝖨𝖥𝖤 𝖫𝖨𝖭𝖤 🥺) </text>
+<text x="450" y="370" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-style="italic" fill="url(#g-moving)">
+  ESPECIALLY <tspan font-weight="700" font-style="normal">𝐆𝐈𝐍𝐇𝐈𝐉𝐈</tspan> I ABSOLUTELY LOVE THEM. </text>
+<!-- Đường phân cách lấp lánh -->
+<text x="450" y="400" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="url(#g-moving)">────────── ꒰✿` ꒳ ` ꒱♡ ──────────</text>
+
+<text x="450" y="430" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)"> 𝘿𝙊 𝙉𝙊𝙏 𝘾𝙊𝙋𝙔 𝙈𝙔 𝙎𝙆𝙄𝙉</text>
+
+<!-- Thanh ngang dưới cùng -->
+<text x="450" y="460" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="url(#g-moving)">૮₍｡'ᴖ ˔ ᴖ`｡₎ა𝓔𝓝𝓓ଘ( ･ω･)_/ﾟ･:*:･｡☆</text>
+
 </svg>
-</svg>
+
