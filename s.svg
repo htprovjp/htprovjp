@@ -1,24 +1,39 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
 
-<!-- LỚP NỀN RECT ĐÃ ĐƯỢC XÓA BỎ ĐỂ NỀN HOÀN TOÀN TRONG SUỐT -->
+<defs>
+  <!-- Tạo hiệu ứng dải màu Xanh Lá Đậm - Trắng - Xanh Lá Đậm chuyển động cho dòng chữ -->
+  <linearGradient id="g-moving-text" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#14532d" />
+    <stop offset="30%" stop-color="#14532d" />
+    <stop offset="50%" stop-color="#ffffff" /> <!-- Vệt sáng trắng ở đây -->
+    <stop offset="70%" stop-color="#14532d" />
+    <stop offset="100%" stop-color="#14532d" />
+    
+    <animate attributeName="x1" from="-100%" to="100%" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="x2" from="0%" to="200%" dur="4s" repeatCount="indefinite" />
+  </linearGradient>
+</defs>
 
-<!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) - Đổi sang màu xanh lá đậm -->
-<circle cx="70" cy="20" r="2.5" fill="#14532d">
+<!-- LỚP NỀN ĐÃ ĐƯỢC XÓA BỎ ĐỂ GIỮ NỀN TRONG SUỐT -->
+
+<!-- Các ngôi sao lấp lánh giữ màu trắng nguyên bản -->
+<!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) -->
+<circle cx="70" cy="20" r="2.5" fill="#ffffff">
     <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"></animate>
 </circle>
 
-<!-- sparkle 2: Thêm một ngôi sao ở giữa để cân bằng bố cục (1.8s) - Đổi sang màu xanh lá đậm -->
-<circle cx="600" cy="15" r="2" fill="#14532d">
+<!-- sparkle 2: Thêm một ngôi sao ở giữa để cân bằng bố cục (1.8s) -->
+<circle cx="600" cy="15" r="2" fill="#ffffff">
     <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"></animate>
 </circle>
 
-<!-- sparkle 3: Lấp lánh lệch nhịp nhanh (1.2s) - Đổi sang màu xanh lá đậm -->
-<circle cx="1120" cy="50" r="3" fill="#14532d">
+<!-- sparkle 3: Lấp lánh lệch nhịp nhanh (1.2s) -->
+<circle cx="1120" cy="50" r="3" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"></animate>
 </circle>
 
-<!-- Logic chữ chạy vô hạn: Giữ nguyên khoảng cách tịnh tiến và đổi màu chữ thành xanh lá đậm -->
-<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="#14532d">
+<!-- Logic chữ chạy vô hạn với màu quét sáng chuyển động (Xanh lá đậm + vệt trắng) -->
+<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="url(#g-moving-text)">
 
  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »»
 
