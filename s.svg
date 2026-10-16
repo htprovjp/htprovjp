@@ -1,54 +1,44 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-  <!-- 1. Hiệu ứng đổ bóng nhấp nháy (Glow/Drop Shadow) cho phần Text -->
-  <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#14532d" flood-opacity="0.6">
-      <animate attributeName="flood-opacity" values="0.6;0.2;0.6" dur="2s" repeatCount="indefinite" />
-    </feDropShadow>
+  <!-- Hiệu ứng đổ bóng nhẹ giúp phần chữ màu trắng hiển thị cực rõ trên mọi loại nền sáng -->
+  <filter id="text-shadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="#14532d" flood-opacity="0.4"/>
   </filter>
-
-  <!-- 2. Hiệu ứng co giãn nhẹ nhàng (Pulse) áp dụng trực tiếp vào cấu trúc Text -->
-  <animateTransform id="pulse-effect" attributeName="transform" type="scale" values="1; 1.02; 1" dur="2s" repeatCount="indefinite" additive="sum" />
 </defs>
 
-<!-- LỚP NỀN TRONG SUỐT -->
+<!-- NỀN ĐÃ ĐƯỢC LÀM TRONG SUỐT (XÓA BỎ THẺ RECT NỀN CŨ) -->
 
-<!-- Các ngôi sao lấp lánh nguyên bản -->
+<!-- Các hiệu ứng lấp lánh (sparkles) giữ nguyên màu trắng chuyển động -->
+<!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) -->
 <circle cx="70" cy="20" r="2.5" fill="#ffffff">
     <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"></animate>
 </circle>
 
+<!-- sparkle 2: Thêm một ngôi sao ở giữa để cân bằng bố cục (1.8s) -->
 <circle cx="600" cy="15" r="2" fill="#ffffff">
     <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"></animate>
 </circle>
 
+<!-- sparkle 3: Lấp lánh lệch nhịp nhanh (1.2s) -->
 <circle cx="1120" cy="50" r="3" fill="#ffffff">
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"></animate>
 </circle>
 
-<!-- Logic chữ chạy vô hạn tích hợp các hiệu ứng mới và màu sắc đan xen -->
-<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" filter="url(#text-glow)">
-
-  <!-- Cụm 1 -->
+<!-- Logic chữ chạy vô hạn: Phối màu đan xen hoàn hảo Xanh lá đậm và Trắng bằng các thẻ tspan -->
+<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" filter="url(#text-shadow)">
   <tspan fill="#14532d"> »» hello i'm hamish </tspan>
   <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
-  
-  <!-- Cụm 2 -->
   <tspan fill="#14532d"> »» hello i'm hamish </tspan>
   <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
-  
-  <!-- Cụm 3 -->
   <tspan fill="#14532d"> »» hello i'm hamish </tspan>
   <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
-  
-  <!-- Cụm 4 -->
   <tspan fill="#14532d"> »» hello i'm hamish </tspan>
-  <tspan fill="#ffffff"> »» hello i'm hamish </tspan> »»
+  <tspan fill="#ffffff"> »» hello i'm hamish </tspan>
+  <tspan fill="#14532d"> »» </tspan>
 
-  <!-- Hiệu ứng chạy chữ vô hạn kết hợp co giãn nhịp tim -->
-  <animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite" />
-
-</text>
+  <!-- Giữ nguyên hiệu ứng chuyển động tịnh tiến vô hạn (14s) -->
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
+</tspan>
 
 </svg>
