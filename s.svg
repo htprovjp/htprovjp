@@ -1,40 +1,31 @@
-<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://w3.org">
+<svg width="1200" height="70" viewBox="0 0 1200 70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Đã xóa thẻ <rect> để tạo nền trong suốt (transparent) -->
 
-<defs>
-  <!-- Giải pháp Pattern: Tạo dải màu đan xen Xanh lá đậm và Trắng khớp chính xác theo từng cụm chữ -->
-  <pattern id="green-white-stripes" x="0" y="0" width="330" height="70" patternUnits="userSpaceOnUse">
-    <!-- Cụm 1: Xanh lá đậm -->
-    <rect x="0" y="0" width="165" height="70" fill="#14532d" />
-    <!-- Cụm 2: Trắng -->
-    <rect x="165" y="0" width="165" height="70" fill="#ffffff" />
-  </pattern>
-
-  <!-- Hiệu ứng bóng đổ nhẹ giúp chữ màu trắng hiển thị rõ trên mọi nền sáng -->
-  <filter id="text-shadow" x="-10%" y="-10%" width="120%" height="120%">
-    <feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="#14532d" flood-opacity="0.3"/>
-  </filter>
-</defs>
-
-<!-- NỀN HOÀN TOÀN TRONG SUỐT (ĐÃ XÓA RECT NỀN CŨ) -->
-
-<!-- Các ngôi sao lấp lánh giữ nguyên màu trắng chuyển động nguyên bản -->
-<circle cx="70" cy="20" r="2.5" fill="#ffffff">
+  <!-- sparkle 1: Lấp lánh lệch nhịp chậm (2.4s) -->
+  <circle cx="70" cy="20" r="2.5" fill="#ffffff"> 
     <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"></animate>
-</circle>
+  </circle>
 
-<circle cx="600" cy="15" r="2" fill="#ffffff">
+  <!-- sparkle 2: Thêm một ngôi sao ở giữa để cân bằng bố cục (1.8s) -->
+  <circle cx="600" cy="15" r="2" fill="#ffffff"> 
     <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"></animate>
-</circle>
+  </circle>
 
-<circle cx="1120" cy="50" r="3" fill="#ffffff">
+  <!-- sparkle 3: Lấp lánh lệch nhịp nhanh (1.2s) -->
+  <circle cx="1120" cy="50" r="3" fill="#ffffff"> 
     <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"></animate>
-</circle>
+  </circle>
 
-<!-- Cấu trúc chữ chạy VẸN NGUYÊN 100% như code gốc của bạn, sử dụng fill pattern để đan xen màu sắc -->
-<text x="0" y="45" font-size="30" font-family="monospace" font-weight="700" fill="url(#green-white-stripes)" filter="url(#text-shadow)">
-
- »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »» hello i'm hamish  »»
-
-
-
+  <!-- Logic chữ chạy vô hạn: Giữ nguyên hiệu ứng chuyển động, màu chữ đan xen trắng và xanh lá đậm -->
+  <text x="0" y="45" font-size="30" font-family="monospace" font-weight="700">
+    <tspan fill="#ffffff"> »» hello i'm hamish</tspan>
+    <tspan fill="#1b4d3e"> »» hello i'm hamish</tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish</tspan>
+    <tspan fill="#1b4d3e"> »» hello i'm hamish</tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish</tspan>
+    <tspan fill="#1b4d3e"> »» hello i'm hamish</tspan>
+    <tspan fill="#ffffff"> »» hello i'm hamish</tspan>
+    <tspan fill="#1b4d3e"> »» hello i'm hamish »»</tspan>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="-1320 0" dur="14s" repeatCount="indefinite"></animateTransform>
+  </text>
 </svg>
