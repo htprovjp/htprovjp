@@ -1,6 +1,4 @@
-<p align="center">
-<a href="https://brookeartzz.atabook.org/">atab</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a 
+
 <img width="1200" height="70" alt="s (2)" src="https://github.com/user-attachments/assets/44108153-b137-4ce1-b37d-466221bf60f2" />
 
 <img width="800" height="70" alt="o" src="https://github.com/user-attachments/assets/e653e08d-1ebd-46ae-8195-c891587ba3f0" />
