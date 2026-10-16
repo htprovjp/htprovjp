@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 700 70">
+  <defs>
+    <!-- Tạo dải màu Xanh Lá Đậm - Trắng - Xanh Lá Đậm để làm hiệu ứng quét sáng -->
+    <linearGradient id="gradient-animation" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="30%" stop-color="#14532d" />
+      <stop offset="50%" stop-color="#ffffff" /> <!-- Vệt sáng màu trắng -->
+      <stop offset="70%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#14532d" />
+      
+      <!-- Hiệu ứng di chuyển dải màu liên tục để tạo chuyển động -->
+      <animate attributeName="x1" from="-100%" to="100%" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="x2" from="0%" to="200%" dur="3s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <!-- LỚP NỀN ĐÃ ĐƯỢC XÓA BỎ ĐỂ GIỮ NỀN TRONG SUỐT -->
+
+  <!-- Nội dung chữ giới thiệu với hiệu ứng chuyển động xanh lá đậm -->
+  <text x="350" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="url(#gradient-animation)">
+    ✨ 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 𝑴𝒀 𝑮𝑰𝑻𝑯𝑼𝑩 ✨
+  </text>
+</svg>
