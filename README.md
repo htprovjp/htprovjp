@@ -1,4 +1,4 @@
-<img width="900" height="465" alt="m (2)" src="https://github.com/user-attachments/assets/1ee7cdbc-7f55-4424-87ff-a3ef7863db24" /><img width="900" height="465" alt="m (2)" src="https://github.com/user-attachments/assets/509cc7f9-cd94-467d-a956-e6a4b1cbfdc8" />
+
 <img width="1200" height="70" alt="s (2)" src="https://github.com/user-attachments/assets/44108153-b137-4ce1-b37d-466221bf60f2" />
 
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="465" viewBox="0 0 900 465">
